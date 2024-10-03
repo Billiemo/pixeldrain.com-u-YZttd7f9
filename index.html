@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشغل فيديو باستخدام Video.js</title>
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+    <style>
+        .video-container {
+            max-width: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="video-container">
+    <video
+        id="my-video"
+        class="video-js"
+        controls
+        preload="auto"
+        width="600"
+        height="300"
+        data-setup="{}"
+    >
+        <source src="https://qu.ax/.mp4" type="video/mp4" />
+        <p class="vjs-no-js">
+         
+        </p>
+    </video>
+</div>
+
+<script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+</body>
+</html>
